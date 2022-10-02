@@ -12,6 +12,7 @@ export const plantList = [
   {
     name: "monstera",
     category: "classique",
+    isSpecialOffer: true,
     id: "1ed",
     light: 2,
     water: 3,
@@ -37,6 +38,7 @@ export const plantList = [
   {
     name: "calathea",
     category: "classique",
+    isSpecialOffer: true,
     id: "4kk",
     light: 2,
     water: 3,
@@ -62,6 +64,7 @@ export const plantList = [
   {
     name: "basilique",
     category: "extérieur",
+    isBestSale: true,
     id: "7ie",
     light: 2,
     water: 3,
@@ -70,6 +73,7 @@ export const plantList = [
   {
     name: "succulente",
     category: "plante grasse",
+    isSpecialOffer: true,
     id: "9vn",
     light: 2,
     water: 1,
@@ -79,6 +83,7 @@ export const plantList = [
   {
     name: "menthe",
     category: "extérieur",
+    isBestSale: true,
     id: "6uo",
     light: 2,
     water: 2,

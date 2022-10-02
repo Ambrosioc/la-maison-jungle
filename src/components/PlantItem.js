@@ -6,7 +6,7 @@ function handleClick(planName) {
   alert(`Vous voulez acheter 1 plante ${planName}? Très bon choix 🌱✨`);
 }
 
-function PlantItem({ cover, name, water, light }) {
+function PlantItem({ cover, name, water, light, isSpecialOffer, isBestSale }) {
   return (
     <li
       className="lmj-plant-item"
@@ -15,7 +15,9 @@ function PlantItem({ cover, name, water, light }) {
       }}
     >
       <img className="lmj-plant-item-cover" src={cover} alt={`${name} cover`} />
+      {isSpecialOffer && <div className="lmj-sales">Solde</div>}
       {name}
+      {isBestSale && <div>Meilleur vente 🔥🔥</div>}
       <div>
         <CareScale careType="light" scaleValue={light} />
         <CareScale careType="water" scaleValue={water} />
