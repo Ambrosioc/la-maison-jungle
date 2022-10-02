@@ -3,13 +3,12 @@ import CareScale from "./CareScale";
 import "../styles/PlantItem.css";
 
 function handleClick(planName) {
-  alert(`Vous voulez acheter 1 plante ${planName}?`);
+  alert(`Vous voulez acheter 1 plante ${planName}? Très bon choix 🌱✨`);
 }
 
-function PlantItem({ id, cover, name, water, light }) {
+function PlantItem({ cover, name, water, light }) {
   return (
     <li
-      key={id}
       className="lmj-plant-item"
       onClick={() => {
         handleClick(name);
