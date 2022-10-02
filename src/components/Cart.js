@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Cart.css";
 
 function Cart() {
   const monstera = 8;
@@ -6,7 +7,7 @@ function Cart() {
   const bouquetDeFleurs = 15;
   const total = monstera + lierre + bouquetDeFleurs;
   return (
-    <div>
+    <div className="lmj-cart">
       <ul>
         <li>Monstera : {monstera}€</li>
         <li> Lierre : {lierre} €</li>
