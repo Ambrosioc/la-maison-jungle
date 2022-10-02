@@ -14,8 +14,8 @@ function PlantItem({ cover, name, water, light, isSpecialOffer, isBestSale }) {
         handleClick(name);
       }}
     >
-      <img className="lmj-plant-item-cover" src={cover} alt={`${name} cover`} />
       {isSpecialOffer && <div className="lmj-sales">Solde</div>}
+      <img className="lmj-plant-item-cover" src={cover} alt={`${name} cover`} />
       {name}
       {isBestSale && <div>Meilleur vente 🔥🔥</div>}
       <div>

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "../styles/Cart.css";
 
-function Cart() {
+function Cart({ cart, updateCart }) {
   const monsteraPrice = 8;
-  const [cart, updateCart] = useState(0);
   const [isOpened, setIsOpened] = useState(false);
 
   return isOpened ? (
@@ -26,6 +25,7 @@ function Cart() {
         </button>
       </div>
       <h3>Total : {monsteraPrice * cart} €</h3>
+      <button onClick={() => updateCart(0)}>Supprimer le panier</button>
     </div>
   ) : (
     <button
