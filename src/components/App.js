@@ -1,10 +1,8 @@
-import Banner from "./Banner";
 import logo from "../assets/logo.png";
-import Cart from "./Cart";
-import ShoppingList from "./ShoppingList";
-import Footer from "./Footer";
 import "../styles/Layout.css";
 import { useState } from "react";
+
+import { Banner, Cart, Footer, ShoppingList } from "./container";
 
 function App() {
   const [cart, updateCart] = useState([]);

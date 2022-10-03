@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { plantList } from "../data/plantList";
-import "../styles/ShoppingList.css";
+import { plantList } from "../../../data/plantList";
+import "../../../styles/ShoppingList.css";
 import Categories from "./Categories";
 import PlantItem from "./PlantItem";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Categories.css";
+import "../../../styles/Categories.css";
 
 function Categories({ setActiveCategory, categories, activeCategory }) {
   console.log(categories);
