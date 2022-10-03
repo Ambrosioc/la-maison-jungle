@@ -11,10 +11,12 @@
 }
 
 .lmj-sales {
-  right: 0px;
-  top: 10px;
-  font-weight: 500;
+  position: absolute;
+  border-radius: 20px 20px 20px 0;
+  background-color: #31b472;
   color: white;
-  padding: 5px 10px;
-  background-color: #31b572;
+  padding: 15px;
+  left: 0;
+  top: 0;
+  font-weight: 500;
 }
