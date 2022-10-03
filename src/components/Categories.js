@@ -4,7 +4,7 @@ import "../styles/Categories.css";
 function Categories({ setActiveCategory, categories, activeCategory }) {
   console.log(categories);
   return (
-    <div className="lmj-shopping-list">
+    <div className="lmj-categories">
       <select
         value={activeCategory}
         onChange={(e) => setActiveCategory(e.target.value)}

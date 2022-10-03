@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Cart.css";
 
 function Cart({ cart, updateCart }) {
   const [isOpened, setIsOpened] = useState(false);
-  const total = cart.reduce((acc, plantType) => acc + plantType.price, 0);
+  const items = Object.keys(cart);
+  const total = items.reduce(
+    (acc, item) => acc + cart[item].amount * cart[item].price,
+    0
+  );
+
+  useEffect(() => {
+    document.title = `LMJ: ${total}€ d'achats`;
+  }, [total]);
 
   return isOpened ? (
     <div className="lmj-cart">
