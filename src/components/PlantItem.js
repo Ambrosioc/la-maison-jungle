@@ -26,7 +26,7 @@ function PlantItem({
       <span className="lmj-plant-item-price">{price}€</span>
       <img className="lmj-plant-item-cover" src={cover} alt={`${name} cover`} />
       {name}
-      {isBestSale && <div>Meilleur vente 🔥🔥</div>}
+      {isBestSale && <div>Meilleure vente 🔥🔥</div>}
       <div>
         <CareScale careType="light" scaleValue={light} />
         <CareScale careType="water" scaleValue={water} />
