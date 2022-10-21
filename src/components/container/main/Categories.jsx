@@ -2,7 +2,6 @@ import React from "react";
 import "../../../styles/Categories.css";
 
 function Categories({ setActiveCategory, categories, activeCategory }) {
-  console.log(categories);
   return (
     <div className="lmj-categories">
       <select
