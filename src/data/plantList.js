@@ -10,6 +10,16 @@ import cactus from "../assets/cactus.jpg";
 
 export const plantList = [
   {
+    name: "olivier",
+    category: "classique",
+    isSpecialOffer: true,
+    id: "1ed",
+    light: 2,
+    water: 3,
+    cover: olivier,
+    price: 8,
+  },
+  {
     name: "monstera",
     category: "classique",
     isSpecialOffer: true,
