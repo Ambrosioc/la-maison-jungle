@@ -33,7 +33,7 @@ Ce projet a été conçu dans le cadre de l'apprentissage de React avec OpenClas
 
 ## Ressources Utilisées
 
-- ![Logo React](react-logo.png) [React](https://reactjs.org/) pour le développement de l'interface utilisateur.
+- ![Logo React](src/assets/reactjs-ar21.svg) [React](https://reactjs.org/) pour le développement de l'interface utilisateur.
 - Styles CSS pour la personnalisation de l'apparence.
 - Actifs d'images pour les plantes et les éléments de la maison jungle.
 
